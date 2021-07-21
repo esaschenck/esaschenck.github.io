@@ -5,20 +5,19 @@ class Header extends HTMLElement {
     constructor() {
       super();
     }
-}
   
-connectedCallback() {
-    this.innerHTML = `
-      <header>
-        <nav class="navbar">
-            <a href="/index.html">Esa Schenck</a>
-            <a href="/about.html">About Me</a>
-            <a href="#">Research</a>
-            <a href="#">Projects</a>
-        </nav>
-      </header>
-    `;
-  }
+    connectedCallback() {
+        this.innerHTML = `
+        <header>
+            <nav class="navbar">
+                <a href="index.html">Esa Schenck</a>
+                <a href="about.html">About Me</a>
+                <a href="#">Research</a>
+                <a href="#">Projects</a>
+            </nav>
+        </header>
+        `;
+    }
 }
 
 customElements.define('header-component', Header);

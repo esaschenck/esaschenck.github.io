@@ -52,7 +52,7 @@ nav a:hover {
   /* Main column */
   .main {
     flex: 70%; /* Set the width of the main content */
-    background-color: white; /* White background color */
+    background-color: red; /* White background color */
     padding: 20px; /* Some padding */
   }
 
